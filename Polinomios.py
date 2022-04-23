@@ -30,7 +30,7 @@ if valor1 == 1:
             print ("Raiz simple: ",x)
             print(("Raiz doble: ",x1))
     elif delta<0:
-        teta = math.acos((q/2)/math.sqrt(-(pow(p/3),3)))
+        teta = math.acos((q/2)/math.sqrt(-(pow((p/3),3))))
         for k in range(3):
             x = (2*(math.sqrt((-p/3))))*math.cos((teta+2*k*math.pi)/3)-(a/3)
             print("La Raiz #",k," es: ",x)
