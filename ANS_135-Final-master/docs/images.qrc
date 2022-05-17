@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/parabola.png</file>
+    <file>images/signo-matematico-integral.png</file>
+    <file>images/Eliminarr.png</file>
+    <file>images/unidad1_bn.png</file>
+    <file>images/unidad2_bn.png</file>
+    <file>images/unidad3_bn.png</file>
+    <file>images/unidad4_bn.png</file>
+    <file>images/unidad5_bn.png</file>
+    <file>images/barra.png</file>
+    <file>images/Aniadir.png</file>
+    <file>images/barra2.png</file>
+    <file>images/titulo.png</file>
+    <file>images/unidad1.png</file>
+    <file>images/unidad2.png</file>
+    <file>images/unidad3.png</file>
+    <file>images/unidad4.png</file>
+    <file>images/unidad5.png</file>
+  </qresource>
+</RCC>
