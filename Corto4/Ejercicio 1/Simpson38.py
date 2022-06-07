@@ -1,11 +1,13 @@
-import numpy as np 
+import math
+
+import numpy as np
 
 print('\n\tMetodo Simpson 3/8 ')
 
-a= 0 #Limite inferior
-b= 2 #Limite superior
+a= math.e #Limite inferior
+b= 1 #Limite superior
 
-n=3 #Numero de intervalos , Se tiene que verificar si es valido con el numero de puntos que hay (5)
+n=6 #Numero de intervalos , Se tiene que verificar si es valido con el numero de puntos que hay (6)
 #puntos = n+1
 
 
@@ -13,7 +15,7 @@ n=3 #Numero de intervalos , Se tiene que verificar si es valido con el numero de
 x = np.zeros(n+1)
  
  # f(x) en funcion anonima
-f = lambda x: x**5
+f = lambda x: (math.sin(math.log(x)))/ x
 
 def simpson38 ( a, b, n, x, f):
    h = (b-a) / n
@@ -27,7 +29,7 @@ def simpson38 ( a, b, n, x, f):
    sum2= 0
    sum3= 0
    for k in range(1, n-1, 3):
-     sum1 += f( x[k])
+     sum1 += f(x[k])
    for k in range(2, n, 3):
      sum2 += f(x[k])
    for k in range(3, n-2, 3):
@@ -37,5 +39,5 @@ def simpson38 ( a, b, n, x, f):
 
 integral  = simpson38(a, b , n, x, f)
 
-print(f'El valor de la integral de x**5, en el intervalo de {a} a {b} es : {integral}')
+print(f'El valor de la integral de Sen(ln(x)))/x, en el intervalo de {a} a {b} es : {integral}')
 #10.7037

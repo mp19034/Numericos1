@@ -1428,6 +1428,9 @@ def integracion_rosemberg(funcion, a, b, nivel):
 
     return Listado_Resultante_Final
 
+
+
+
 def integracion_cuadratura_Gaussiana(funcion, a, b, n):
     # cada sub-lista va a representar un punto
     listaResultado = []

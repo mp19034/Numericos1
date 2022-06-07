@@ -196,6 +196,6 @@ def trazadoresCubicos(listaX, listaY):
 
 # LISTA DE DONDE IRAN LOS VALORES
 listaCoeficientes = [1,2,3,4]  # VALORES DE X
-listaIndependientes = [4,8,12,16]  # VALORES DE Y
+listaIndependientes = [-1,6,31,19]  # VALORES DE Y
 
 trazadoresCubicos(listaCoeficientes, listaIndependientes)
